@@ -15,7 +15,7 @@ const OUTPUT_DIR = path.resolve(__dirname, '../src/generated');
 const OUTPUT_FILE = path.join(OUTPUT_DIR, 'skills.ts');
 
 // 读取所有 .md 文件
-const files = fs.readdirSync(SKILLS_DIR).filter((f) => f.endsWith('.md'));
+const files = fs.readdirSync(SKILLS_DIR).filter((f) => f.endsWith('.md') && f !== 'README.md');
 
 if (files.length === 0) {
   console.error('Error: no .md files found in skills/');
