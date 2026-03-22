@@ -42,3 +42,7 @@ docs/
 
 # 内部变更日志
 updatelog.md
+
+# MCP Publisher
+.local/
+.mcpregistry_*

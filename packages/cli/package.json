@@ -1,6 +1,7 @@
 {
   "name": "@omnisockit/mcp-server",
-  "version": "0.1.4",
+  "version": "0.1.5",
+  "mcpName": "io.github.OmniSocKit/omnisockit-mcp",
   "description": "OmniSocKit — 让你的 AI 大模型成为社交营销平台开发专家",
   "type": "module",
   "bin": {

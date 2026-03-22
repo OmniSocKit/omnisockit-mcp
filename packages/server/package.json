@@ -1,6 +1,6 @@
 {
   "name": "@omnisockit/server",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "OmniSocKit MCP Server — 核心服务",
   "type": "module",
   "main": "./dist/index.js",
