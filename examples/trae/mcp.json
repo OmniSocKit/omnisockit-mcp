@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "omnisockit": {
+      "command": "npx",
+      "args": ["@omnisockit/mcp-server"]
+    }
+  }
+}

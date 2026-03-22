@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Generated files
+packages/platform-wecom/src/generated/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Snapshots (tracked separately)
+snapshots/*.html
+!snapshots/.gitkeep
+
+# Package manager
+*.tgz
+
+# SKILL 源文件（通过 omnisockit-private 同步，不入 git）
+packages/platform-wecom/skills/*.md
+packages/platform-*/skills/*.md
+!packages/platform-wecom/skills/README.md
+
+# 内部文档（已迁移到 omnisockit-private）
+docs/
+
+# 内部变更日志
+updatelog.md

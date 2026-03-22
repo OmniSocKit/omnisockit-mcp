@@ -1,0 +1,32 @@
+{
+  "name": "@omnisockit/mcp-server",
+  "version": "0.1.3",
+  "description": "OmniSocKit — 让你的 AI 大模型成为社交营销平台开发专家",
+  "type": "module",
+  "bin": {
+    "omnisockit": "./bin/omnisockit.js"
+  },
+  "files": [
+    "dist/",
+    "bin/"
+  ],
+  "scripts": {
+    "build": "tsc -b"
+  },
+  "dependencies": {
+    "@omnisockit/server": "workspace:*"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "wecom",
+    "enterprise-wechat",
+    "ai",
+    "skills",
+    "social-marketing"
+  ],
+  "license": "Apache-2.0"
+}

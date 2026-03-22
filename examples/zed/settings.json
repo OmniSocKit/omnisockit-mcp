@@ -1,0 +1,10 @@
+{
+  "context_servers": {
+    "omnisockit": {
+      "command": {
+        "path": "npx",
+        "args": ["@omnisockit/mcp-server"]
+      }
+    }
+  }
+}

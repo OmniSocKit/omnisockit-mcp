@@ -1,0 +1,8 @@
+models:
+  - name: omnisockit
+    provider: mcp
+    mcpServers:
+      - name: omnisockit
+        command: npx
+        args:
+          - "@omnisockit/mcp-server"

@@ -1,0 +1,35 @@
+{
+  "name": "omnisockit-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "description": "OmniSocKit — 让你的 AI 大模型成为社交营销平台开发专家",
+  "type": "module",
+  "engines": {
+    "node": ">=22.0.0",
+    "pnpm": ">=9.0.0"
+  },
+  "scripts": {
+    "build": "pnpm -r run build",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "build:skills": "pnpm --filter @omnisockit/platform-wecom run build:skills",
+    "clean": "pnpm -r exec rm -rf dist"
+  },
+  "keywords": [
+    "mcp",
+    "wecom",
+    "ai",
+    "skills",
+    "social-marketing"
+  ],
+  "author": "",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.27.1"
+  }
+}
