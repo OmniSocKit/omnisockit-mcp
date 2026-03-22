@@ -1,6 +1,6 @@
 {
   "name": "@omnisockit/platform-wecom",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "OmniSocKit 企业微信平台模块 — 41 个 SKILL",
   "type": "module",
   "main": "./dist/index.js",
