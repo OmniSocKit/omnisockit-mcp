@@ -143,8 +143,7 @@ omnisockit-mcp/
 │   ├── cli/                  ← npx entry point
 │   └── execution/            ← 🔜 API execution layer (reserved)
 ├── examples/                 ← 14 AI tool config examples
-├── tests/                    ← Unit tests
-└── docs/                     ← Project documentation
+└── tests/                    ← Unit tests
 ```
 
 ---

@@ -143,8 +143,7 @@ omnisockit-mcp/
 │   ├── cli/                  ← npx 入口
 │   └── execution/            ← 🔜 API 执行层（预留）
 ├── examples/                 ← 14 个 AI 工具配置示例
-├── tests/                    ← 单元测试
-└── docs/                     ← 项目文档
+└── tests/                    ← 单元测试
 ```
 
 ---

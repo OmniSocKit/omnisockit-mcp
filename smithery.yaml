@@ -1,0 +1,15 @@
+# smithery.yaml — Smithery MCP Marketplace Configuration
+# https://smithery.ai/docs
+
+startCommand:
+  type: stdio
+  configSchema:
+    # OmniSocKit requires no user configuration
+    # Phase B will add API Key parameters here
+    type: object
+    properties: {}
+  commandFunction: |-
+    (config) => ({
+      command: 'npx',
+      args: ['-y', '@omnisockit/mcp-server'],
+    })

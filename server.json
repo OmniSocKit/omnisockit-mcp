@@ -1,0 +1,24 @@
+{
+  "name": "io.github.omnisockit/omnisockit-mcp",
+  "description": "Turn your AI into a social platform development expert. 41 WeCom (Enterprise WeChat) SKILLs covering 550+ API endpoints with precise knowledge delivery via MCP.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OmniSocKit/omnisockit-mcp"
+  },
+  "version_detail": {
+    "version": "0.1.4",
+    "release_date": "2026-03-22",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "npm",
+      "name": "@omnisockit/mcp-server",
+      "version": "0.1.4",
+      "runtime": "node",
+      "runtime_arguments": [],
+      "package_arguments": [],
+      "environment_variables": []
+    }
+  ]
+}
